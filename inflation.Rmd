@@ -68,5 +68,7 @@ usethis::create_github_token(description = "Token for Repro Workshop 2023 Test")
 gitcreds::gitcreds_set() 
 
 usethis::gh_token_help()
+
+usethis::use_github()
 ```
 
