@@ -52,3 +52,17 @@ inflation %>%
   geom_line(aes(date, value, color = name)) +
   NULL
 ```
+
+```{r}
+
+usethis::use_git_config(
+  user.name = "Nicolas Scharowski", # <-- change to your name
+  user.email = "nick@click.com", # <-- and your email
+  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
+
+
+usethis::use_git()
+
+```
+
+
